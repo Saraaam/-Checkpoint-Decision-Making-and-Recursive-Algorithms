@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decision Making & Recursion Tasks</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linking CSS file -->
+</head>
+<body>
+
+    <!-- Leap Year Checker -->
+    <div class="section">
+        <h2>Leap Year Checker</h2>
+        <label for="year">Enter Year:</label>
+        <input type="number" id="year" />
+        <button onclick="checkLeapYear()">Check Leap Year</button>
+        <p id="leapYearResult"></p>
+    </div>
+
+    <!-- Ticket Pricing -->
+    <div class="section">
+        <h2>Ticket Pricing</h2>
+        <label for="age">Enter Age:</label>
+        <input type="number" id="age" />
+        <button onclick="calculateTicketPrice()">Get Ticket Price</button>
+        <p id="ticketPriceResult"></p>
+    </div>
+
+    <!-- Weather Clothing Adviser -->
+    <div class="section">
+        <h2>Weather Clothing Adviser</h2>
+        <label for="temperature">Enter Temperature (°C):</label>
+        <input type="number" id="temperature" />
+        <label for="raining">Is it raining? (yes/no):</label>
+        <input type="text" id="raining" />
+        <button onclick="adviseClothing()">Get Clothing Advice</button>
+        <p id="clothingAdviceResult"></p>
+    </div>
+
+    <!-- Fibonacci Sequence -->
+    <div class="section">
+        <h2>Fibonacci Sequence</h2>
+        <label for="fibonacciInput">Enter Number (n):</label>
+        <input type="number" id="fibonacciInput" />
+        <button onclick="calculateFibonacci()">Get Fibonacci Number</button>
+        <p id="fibonacciResult"></p>
+    </div>
+
+    <!-- Palindrome Checker -->
+    <div class="section">
+        <h2>Palindrome Checker</h2>
+        <label for="palindromeInput">Enter String:</label>
+        <input type="text" id="palindromeInput" />
+        <button onclick="checkPalindrome()">Check Palindrome</button>
+        <p id="palindromeResult"></p>
+    </div>
+
+    <script src="script.js"></script> <!-- Linking JavaScript file -->
+</body>
+</html>

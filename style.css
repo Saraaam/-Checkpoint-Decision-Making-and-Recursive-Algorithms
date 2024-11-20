@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="number"], input[type="text"] {
+    margin-right: 10px;
+    padding: 5px;
+    width: 150px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+p {
+    font-weight: bold;
+}
